@@ -1,3 +1,52 @@
+PS C:\Users\Administrator\Documents\project\bcom-new\bcom-final-local-v1\bcom-mvp-alpha> npm install
+
+added 119 packages, and audited 120 packages in 2m
+
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm warn allow-scripts 1 package has install scripts not yet covered by allowScripts:
+npm warn allow-scripts   sharp@0.34.5 (install: node install/check.js || npm run build)
+npm warn allow-scripts
+npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+PS C:\Users\Administrator\Documents\project\bcom-new\bcom-final-local-v1\bcom-mvp-alpha> npm audit fix --force
+npm warn using --force Recommended protections disabled.
+npm warn audit Updating next to 15.5.24, which is outside your stated dependency range.
+npm warn audit Updating nodemailer to 9.0.6, which is a SemVer major change.
+
+changed 6 packages, and audited 120 packages in 60s
+
+29 packages are looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+postcss  <=8.5.22
+Severity: high
+PostCSS has XSS via Unescaped </style> in its CSS Stringify Output - https://github.com/advisories/GHSA-qx2v-qp2m-jg93
+PostCSS: Arbitrary file read and information disclosure via attacker-controlled sourceMappingURL in CSS comments - https://github.com/advisories/GHSA-6g55-p6wh-862q
+PostCSS: incomplete fix of GHSA-6g55-p6wh-862q — attacker-controlled sourceMappingURL reads arbitrary .map files when `from` is unset - https://github.com/advisories/GHSA-fxqj-rqcc-2cmp
+PostCSS: Path Traversal in Previous Source Map Auto-Loading (sourceMappingURL) leads to Arbitrary .map File Disclosure - https://github.com/advisories/GHSA-r28c-9q8g-f849
+fix available via `npm audit fix --force`
+Will install next@16.3.3, which is a breaking change
+node_modules/next/node_modules/postcss
+  next  9.3.4-canary.0 - 16.3.0-preview.10
+  Depends on vulnerable versions of postcss
+  node_modules/next
+
+2 vulnerabilities (1 moderate, 1 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+
+
+------------------------------------------------------------------------------------
 bcom-platform2025
 
 dari supabase
