@@ -1,27 +1,6 @@
-PS C:\Users\Administrator\Documents\project\bcom-new\bcom-final-local-v4\bcom-mvp-alpha> npm run build
-
-> bcom-mvp-alpha@1.3.0-local build
-> next build
-
-   ▲ Next.js 15.5.9
-   - Environments: .env.local
-
-   Creating an optimized production build ...
- ✓ Compiled successfully in 56s
-   Linting and checking validity of types  .Failed to compile.
-
-   Linting and checking validity of types  .../src/app/sites/[tenantSlug]/[[...path]]/page.tsx:32:30
-Type error: Property 'tokens_json' does not exist on type '{ tokens_json: any; }[]'.
-
-  30 |   const { data: sections } = await s.from("page_sections").select("id,tenant_id,website_id,page_id,section_type,variant,sort_order,content_json,settings_json,responsive_json,is_visible,created_at,updated_at").eq("page_id", page.id).order("sort_order");
-  31 |   const brand = web.brand_kits?.[0] || {};
-> 32 |   const tokens = web.themes?.tokens_json || {};
-     |                              ^
-  33 |   const primary = brand.primary_color || tokens.colors?.primary || "#091F3B";
-  34 |   const secondary = brand.secondary_color || tokens.colors?.secondary || "#FCD708";
-  35 |
-Next.js build worker exited with code: 1 and signal: null
-PS C:\Users\Administrator\Documents\project\bcom-new\bcom-final-local-v4\bcom-mvp-alpha> 
+const brand = web.brand_kits?.[0] || {};
+const theme = web.themes?.[0] || {};
+const tokens = theme.tokens_json || {};
 
 
 
