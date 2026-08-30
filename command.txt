@@ -1,33 +1,3 @@
-PS C:\Users\Administrator\Documents\project\bcom-new\bcom-mvp-alpha-phase1c\bcom-mvp-alpha> ls
-
-
-    Directory: C:\Users\Administrator\Documents\project\bcom-new\bcom-mvp-alpha-phase1c\bcom-mvp-alpha
-
-
-Mode                 LastWriteTime         Length Name                                                                   
-----                 -------------         ------ ----                                                                   
-d-----         8/30/2026  10:34 AM                .next                                                                  
-d-----         8/30/2026  10:16 AM                node_modules                                                           
-d-----         8/30/2026   9:58 AM                public                                                                 
-d-----         8/30/2026   9:58 AM                src                                                                    
-d-----         8/30/2026   9:58 AM                supabase                                                               
--a----         8/30/2026   9:58 AM            457 .env.example                                                           
--a----         8/30/2026  10:17 AM            786 .env.local                                                             
--a----         8/30/2026   9:58 AM             84 .gitignore                                                             
--a----         8/30/2026  10:35 AM            303 next-env.d.ts                                                          
--a----         8/30/2026   9:58 AM            266 next.config.ts                                                         
--a----         8/30/2026  10:16 AM          78667 package-lock.json                                                      
--a----         8/30/2026  10:16 AM            781 package.json                                                           
--a----         8/30/2026   9:58 AM             83 postcss.config.js                                                      
--a----         8/30/2026   9:58 AM          10846 README.md                                                              
--a----         8/30/2026   9:58 AM            352 tailwind.config.ts                                                     
--a----         8/30/2026  10:35 AM            704 tsconfig.json
-
-
-
-
--------------------------------------------------------
-
 bcom-platform2025
 
 dari supabase
