@@ -1,29 +1,29 @@
-## Error Type
-Runtime Error
-
-## Error Message
-Your project's URL and Key are required to create a Supabase client!
-
-Check your Supabase project's API settings to find these values
-
-https://supabase.com/dashboard/project/_/settings/api
+PS C:\Users\Administrator\Documents\project\bcom-new\bcom-mvp-alpha-phase1c\bcom-mvp-alpha> ls
 
 
-    at createClient (src\lib\supabase\server.ts:6:28)
-    at  login (src\app\admin\(auth)\login\actions.ts:7:20)
-    at form (<anonymous>:null:null)
-    at LoginPage (src\app\admin\(auth)\login\page.tsx:6:528)
+    Directory: C:\Users\Administrator\Documents\project\bcom-new\bcom-mvp-alpha-phase1c\bcom-mvp-alpha
 
-## Code Frame
-  4 | export async function createClient() {
-  5 |   const cookieStore = await cookies();
-> 6 |   return createServerClient(
-    |                            ^
-  7 |     process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  8 |     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-  9 |     {
 
-Next.js version: 16.3.3 (Turbopack)
+Mode                 LastWriteTime         Length Name                                                                   
+----                 -------------         ------ ----                                                                   
+d-----         8/30/2026  10:34 AM                .next                                                                  
+d-----         8/30/2026  10:16 AM                node_modules                                                           
+d-----         8/30/2026   9:58 AM                public                                                                 
+d-----         8/30/2026   9:58 AM                src                                                                    
+d-----         8/30/2026   9:58 AM                supabase                                                               
+-a----         8/30/2026   9:58 AM            457 .env.example                                                           
+-a----         8/30/2026  10:17 AM            786 .env.local                                                             
+-a----         8/30/2026   9:58 AM             84 .gitignore                                                             
+-a----         8/30/2026  10:35 AM            303 next-env.d.ts                                                          
+-a----         8/30/2026   9:58 AM            266 next.config.ts                                                         
+-a----         8/30/2026  10:16 AM          78667 package-lock.json                                                      
+-a----         8/30/2026  10:16 AM            781 package.json                                                           
+-a----         8/30/2026   9:58 AM             83 postcss.config.js                                                      
+-a----         8/30/2026   9:58 AM          10846 README.md                                                              
+-a----         8/30/2026   9:58 AM            352 tailwind.config.ts                                                     
+-a----         8/30/2026  10:35 AM            704 tsconfig.json
+
+
 
 
 -------------------------------------------------------
